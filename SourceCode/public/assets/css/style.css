@@ -1,0 +1,248 @@
+/* * {
+    padding: 0;
+    margin: 5px;
+    font-family: "monserrat";
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+.custom-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 570px;
+    height: 400px;
+    perspective: 1000px;
+    margin-right: 20px;
+}
+
+.custom-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.custom-card:hover .custom-card-inner {
+    transform: rotateY(180deg);
+}
+
+.custom-card-front,
+.custom-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.custom-card-front {
+    border-radius: 10px;
+}
+
+.custom-card-front-1 {
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX31194556.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-card-front-2 {
+    background-image: url("https://directlync.com/images/sys/articles//850x478_opt_77a1e349cc7017e5693209e625e29259.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+header {
+    background-color: white;
+}
+li {
+    list-style: none;
+}
+a {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+.navbar {
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-branding {
+    font-size: 2rem;
+    margin-left: 28px;
+}
+.navbar .nav-branding img {
+    margin-left: 24px;
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+}
+.navbar .nav-menu .nav-item:last-child .nav-link {
+    margin-right: 28px;
+}
+.nav-link:hover() {
+    color: #30318c;
+}
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #1e1e1e;
+}
+.rounded-20 {
+    border-radius: 20px;
+}
+body {
+    background: white;
+}
+.gallery {
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+.gallery div img {
+    width: 100%;
+}
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+}
+#backBtn,
+#nextBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+.gallery div img:hover {
+    filter: grayscale();
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -10px;
+}
+
+.photos img {
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    color: #f1f1f1;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #bbb;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item {
+        margin: 16px 0;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+} */
